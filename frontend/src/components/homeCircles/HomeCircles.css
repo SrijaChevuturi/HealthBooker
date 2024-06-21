@@ -1,0 +1,45 @@
+.circles {
+  display: flex;
+  flex-direction: column; /* Change to column layout for smaller screens */
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  align-items: center; /* Center align items */
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem; /* Add margin between circles */
+}
+
+.counter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(52, 137, 235);
+}
+
+.circle-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(6, 63, 104);
+}
+
+/* Media query for smaller screens */
+@media (min-width: 768px) {
+  .circles {
+    flex-direction: row; /* Switch back to row layout for larger screens */
+    justify-content: space-around;
+  }
+
+  .circle {
+    margin-bottom: 0; /* Remove margin between circles */
+  }
+}

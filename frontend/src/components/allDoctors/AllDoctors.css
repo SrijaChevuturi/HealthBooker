@@ -1,0 +1,66 @@
+.doctors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the doctor cards */
+  }
+  
+  .doctor-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visual effect */
+  }
+  
+  .add-doctor-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visual effect */
+    background-color: #0770c020; /* Light background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form elements */
+    margin: 20px auto; /* Center the forms container */
+    margin-bottom: 30px;
+  }
+  
+  .add-doctor-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%; /* Increase the width for better alignment */
+    border-radius: 8px;
+    background-color: rgba(250, 249, 249, 0.753);
+  }
+  
+  .add-doctor-form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 40%; /* Adjust width for better alignment */
+    background-color: #064c97e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-doctor-form button:hover {
+    background-color: #0056b3; /* Add hover effect */
+  }
+  
+  .error {
+    color: red;
+    text-align: center; /* Center the error message */
+    font-size: large;
+  }
+  
+  .success {
+    color: green;
+    text-align: center; /* Center the success message */
+    font-size: large;
+  }
+  

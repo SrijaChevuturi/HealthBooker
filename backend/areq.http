@@ -1,0 +1,51 @@
+
+//admin-login
+###
+POST http://localhost:3000/admin-api/admin-login
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "healthbooker"
+}
+
+
+ 
+//doctor
+###
+POST http://localhost:3000/admin-api/add-doctor
+Content-Type: application/json
+
+{
+    "doctorname":"Meghana",
+    "specialization":"Children Specialist",
+    "experience":"10yrs",
+    "fees":"$20",
+    "phone":9234456237
+}
+
+###
+GET http://localhost:3000/admin-api/view-users
+
+
+###
+GET http://localhost:3000/admin-api/view-queries
+
+###
+POST http://localhost:3000/admin-api/respond-query/:id
+Content-Type: application/application/json
+
+{
+    "response":"Your response"
+}
+
+###
+# Delete Doctor by ID
+DELETE http://localhost:3000/admin-api/delete-doctor/:id
+
+###
+# Delete User by ID
+DELETE http://localhost:3000/admin-api/delete-user/:id
+
+###
+GET http://localhost:3000/admin-api/all-appointments

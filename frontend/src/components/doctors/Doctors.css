@@ -1,0 +1,55 @@
+.doctors-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+  
+  .doctor-card {
+    flex: 0 0 calc(30% - 60px); /* Adjust width to fit four cards per row */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #78b5f60f;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Add margin-right to create space between cards */
+    margin-left: 75px; /* Reset margin-left */
+  }
+  
+  /* Adjust margin-right for the last card in a row */
+  .doctor-card:nth-child(4n) {
+    margin-right: 0;
+  }
+  
+  .doctor-card h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+  
+  .doctor-card p {
+    margin-bottom: 15px;
+    font-size: large;
+  }
+  
+  .doctor-card p strong {
+    margin-right: 5px;
+  }
+  
+  .doctor-card button {
+    display: block; /* Ensure the button takes up the full width of the card */
+    width: 80%; /* Make the button fill the entire width of the card */
+    padding: 10px; /* Add padding to the button for better visual appearance */
+    background-color: #084a90e2; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .doctor-card button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  

@@ -1,0 +1,44 @@
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .user-card {
+    background-color: #aeceedc4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* .user-card:hover {
+    transform: scale(1.05);
+  } */
+  
+  .user-card h3 {
+    margin-top: 0;
+  }
+  
+  .user-card p {
+    margin: 8px 0;
+  }
+  
+  .delete-button {
+    background-color: #d90707c1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000;
+  }
+  

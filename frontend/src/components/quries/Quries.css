@@ -1,0 +1,57 @@
+.queries-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 60px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .queries-container h2 {
+    grid-column: span 2; /* Ensure the heading spans across two columns */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .query-card {
+    background-color: #b4d4efd2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 100%; /* Ensure the card doesn't exceed its grid cell */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .query-card h3 {
+    margin-top: 0;
+  }
+  
+  .query-card p {
+    margin: 8px 0;
+  }
+  
+  .response-form {
+    margin-top: 10px;
+  }
+  
+  .response-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .response-button {
+    background-color: #05407ec7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .response-button:hover {
+    background-color: #0056b3;
+  }
+  

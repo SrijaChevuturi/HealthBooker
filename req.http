@@ -1,0 +1,59 @@
+//user registration
+POST http://localhost:3000/user-api/user
+Content-Type: application/json
+
+{
+    "firstname": "admin",
+    "lastname": "admin",
+    "email": "admin@gmail.com",
+    "password":"healthbooker"
+}
+
+//user login
+###
+POST http://localhost:3000/user-api/login
+Content-Type: application/json
+
+{
+    "email":"admin@gmail.com",
+    "password": "healthbooker"
+}
+
+//get users
+###
+get http://localhost:3000/user-api/user
+
+//reading all doctors
+###
+get http://localhost:3000/doctor-api/doctors
+
+###
+get http://localhost:3000/user-api/appointments
+
+###
+POST http://localhost:3000/user-api/update-profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJoYXJhdGhAZ21haWwuY29tIiwidXNlcklkIjoiNjY0MmY5OTI1ZjBlY2Q3YjE4ZTkwNjZhIiwiaWF0IjoxNzE2Mzg0NTQ4LCJleHAiOjE3MTY0NzA5NDh9.qo_7np_V6saWXR3Gy4OqKxwOOiK_KkjtTB1xG4Mcjog
+
+{
+    "firstname": "Bharath",
+    "lastname": "Kumar",
+    "email": "bharathkumar@gmail.com",
+    "password": "bharath123",
+    "gender": "Male",
+    "age": 30,
+    "mobile": "1234567890",
+    "address": "123 Updated Street, City, Country",
+    "confpassword": "bharath123"
+}
+
+###
+POST http://localhost:3000/user-api/contact
+Content-Type: application/json
+
+{
+    "name":"Lasya Bothula",
+    "email":"lasya@gmail.com",
+    "message":"How to Login?"
+}
+

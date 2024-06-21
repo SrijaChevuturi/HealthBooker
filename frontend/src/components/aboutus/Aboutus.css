@@ -1,0 +1,41 @@
+.ahero {
+    display: flex;
+    height: 60vh;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .ahero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  .ahero-img {
+    flex: 1;
+  }
+  
+  .ahero-img img {
+    width: 100%;
+  }
+
+.about {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-between;
+  }
+
+  .about-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(6, 63, 104);
+    font-weight: bold;
+  }

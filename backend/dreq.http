@@ -1,0 +1,35 @@
+//doctor
+POST http://localhost:3000/doctor-api/doctor
+Content-Type: application/json
+
+{
+    "doctorname":"Meghana",
+    "specialization":"Children Specialist",
+    "experience":"10yrs",
+    "fees":"$20",
+    "phone":9234456237
+}
+
+
+//get all doctors
+###
+GET http://localhost:3000/doctor-api/doctors
+
+
+
+//available times
+###
+GET http://localhost:3000/doctor-api/available-times/60c72b2f9b1e8b0f8a6f1b4e/2024-05-22
+
+
+//book appointment
+###
+POST http://localhost:3000/doctor-api/bookAppointment
+Content-Type: application/json
+
+{
+  "doctorId": "60c72b2f9b1e8b0f8a6f1b4e",
+  "date": "2023-05-20",
+  "time": "14:30",
+  "userId": "60c72b2f9b1e8b0f8a6f1b4f"
+}

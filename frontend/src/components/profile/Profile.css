@@ -1,0 +1,78 @@
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  }
+  
+  .pform-heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(6, 63, 104);
+    font-weight: bold;
+  }
+
+
+  .profile-container {
+    width: 40%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 250px;
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-same-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .pform-input {
+    width: calc(56% - 50px);
+    padding: 10px;
+    background-color: rgba(202, 201, 201, 0.374);
+    font-size: 16px;
+    border: 1px solid rgb(156, 156, 156); 
+    border-radius: 5px;
+  }
+
+  .pform-input:focus {
+    outline: none;
+    border-color: #a6a7a7da; /* Added focus color */
+  }
+  
+  textarea.form-input {
+    width: 100%;
+  }
+  
+  .pbtn {
+    padding: 10px 20px;
+    background-color: #166cc9;
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .pbtn:hover {
+    background-color: #3b85d3;
+  }
+  

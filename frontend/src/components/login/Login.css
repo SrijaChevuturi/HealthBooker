@@ -1,0 +1,57 @@
+/* Login.css */
+
+.register-container {
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
+  .form-heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(6, 63, 104);
+    font-weight: bold;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: gray;
+  }
+  
+  .form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid gray; /* Changed border color to gray */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #686868; /* Added focus color */
+  }
+  
+  .lbtn {
+    background-color: #166cc9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 40%;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .lbtn:hover {
+    background-color: #2e81dacb;
+  }
+  

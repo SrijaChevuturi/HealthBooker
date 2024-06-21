@@ -1,0 +1,63 @@
+.admin-appointments-container {
+  padding: 20px;
+}
+
+.appointments-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.appointment-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  margin: 5px 0;
+}
+
+.appointment-status {
+  display: flex;
+  align-items: center;
+}
+
+.appointment-status span {
+  margin-left: 5px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.approve-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
